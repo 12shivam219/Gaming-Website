@@ -1,0 +1,16 @@
+.Big-form {
+    position: absolute;
+    left: 230px;
+    top: -220px;
+    width: 430px;
+    padding: 10px 30px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.Big-form .h1 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}

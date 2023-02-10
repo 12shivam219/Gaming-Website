@@ -1,0 +1,52 @@
+.section5 .all_card {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+    width: 100%;
+    height: 1200px;
+    justify-content: space-between;
+}
+
+.section5 .shrt-img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.section5 .up-card {
+    display: block;
+    width: 420px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.section5 .card-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    height: 100%;
+}
+
+.section5 .company-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.section5 .logo {
+    width: 45%;
+    height: 46px;
+}
+
+.section5 .right-img {
+    display: block;
+    width: 330px;
+    background-image: url("../../../public/assets/our_games_bottom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

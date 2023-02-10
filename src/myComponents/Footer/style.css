@@ -1,0 +1,105 @@
+
+.footer {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.footer .foot {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.footer .foot .foot_head {
+    display: block;
+    width: 11%;
+    margin: auto;
+    text-align: center;
+    background-color: red;
+    padding: 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer .foot .foot_head h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer .foot .foot_para {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 32px 0 60px 0;
+}
+
+.footer .foot .foot_para p {
+    display: block;
+    width: 50%;
+    margin: auto;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.footer .foot_flex {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 60px 0;
+}
+
+.footer .foot_flex .foot_down {
+    display: flex;
+    width: 66%;
+    height: 100%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.footer .foot_flex .foot_down .f {
+    display: block;
+    height: 100%;
+}
+
+.footer .foot_flex .foot_down .f .h1 {
+    display: block;
+    width: 100%;
+    height: 30%;
+}
+
+.footer .foot_flex .foot_down .f .h1 h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer .foot_flex .foot_down .f ul {
+    margin-top: 22px;
+}
+
+.footer .foot_flex .foot_down .f li {
+    margin: 8px 0;
+    list-style: none;
+}
+
+.footer .foot_flex .foot_down .f .foot_down_fourth_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 22px;
+}
+
+.footer .foot_flex .foot_down .f .foot_down_fourth_img img {
+    width: 130px;
+    margin-bottom: 16px;
+}
+
+.footer .last {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 60px 0;
+}

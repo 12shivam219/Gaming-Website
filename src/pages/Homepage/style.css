@@ -1,0 +1,229 @@
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../public/assets/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.card {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 294px;
+    height: 392px;
+    border-radius: 20px;
+}
+
+#card4 {
+    width: 294px;
+    height: 392px;
+    border-radius: 20px;
+}
+
+#card4:hover {
+    background: linear-gradient(rgb(252, 255, 114), rgb(252, 255, 114));
+}
+
+.card:hover .card-style {
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+}
+
+
+.card:hover .con {
+    display: none;
+}
+
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(red, red);
+    opacity: 0.3;
+    transition: all 1s ease-in-out;
+}
+
+.sect3 {
+    display: block;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.sect3-img {
+    display: flex;
+    flex-direction: column;
+    width: 698px;
+    height: 396px;
+    border-radius: 16px;
+    background-image: url('../../../public/assets/about1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.sect3-btn:hover {
+    background-color: white;
+    transition: all 1s ease-in-out;
+}
+
+.sect3-btn:hover button {
+    color: black;
+    transition: all 1s ease-in-out;
+}
+
+.sect3-img-bot {
+    display: block;
+    width: 230px;
+    height: 250px;
+    background-image: url('../../../public/assets/about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: -66px;
+    left: -90px;
+}
+
+.sect4 {
+    display: block;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 128px 0;
+}
+
+.section5 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/assets/our_games.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 220px;
+}
+
+
+.section6 {
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-image: url("../../../public/assets/fixed.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: relative;
+}
+
+.section6 .left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.section6 .in {
+    display: flex;
+    flex-direction: column;
+    width: 568px;
+    margin-top: 100px;
+}
+
+.section6 .in-p {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.section6 button {
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(252, 255, 114);
+}
+
+.section6 button:hover {
+    background-color: white;
+    transition: all 1s ease-in-out;
+}
+
+.section6 .right-content {
+    display: block;
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 120px;
+
+}
+
+
+.section7 {
+    display: block;
+    width: 100%;
+    height: 650px;
+    background-image: url("../../../public/assets/sect7.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.section7 .short_form {
+    display: block;
+    width: 450px;
+    height: 240px;
+    border: 2px solid;
+    background-color: red;
+    float: right;
+    margin: 200px 150px 0 0;
+    border-radius: 20px;
+}
+
+.section7 .form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.section7 .sh-in button{
+    width: 80px;
+    height: 60px;
+    margin-left: 20px;
+    background-color: rgb(252, 255, 114);
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.section7 .sh-in button:hover {
+    background-color: white;
+}
+
+@media screen and (max-width:1024px) {
+
+    .cards {
+        justify-content: space-around;
+        align-items: center;
+        transform: translate(0);
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+
+    #card4 {
+        margin-top: 10px;
+        ;
+    }
+}
